@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>README.md.txt</name>
+			<type>1</type>
+			<location>C:/Users/Dieguin/OneDrive - Consejería de Educación/Clases Programacion 1ºDAW/Programacion/Proyecto Eclipse/VectoresEJ2_AULA/README.md.txt</location>
+		</link>
+	</linkedResources>
 </projectDescription>
