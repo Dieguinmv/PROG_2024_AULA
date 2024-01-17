@@ -22,11 +22,15 @@ public class Aula {
 			
 		}
 			
+		System.out.println(this);
+	}
+
+	
+	public String toString() {
+		return "Aula [\nalumnos=" + Arrays.toString(alumnos) + ", \ncontadorAlumnos=" + contadorAlumnos + "\n]";
 	}
 
 	
 	
-	public String toString() {
-		return Arrays.toString(alumnos);	
-	}
+
 }
