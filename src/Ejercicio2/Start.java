@@ -7,21 +7,11 @@ public class Start {
 		
 		Aula aula = new Aula(4);
 		
-		Alumno alumno1 = new Alumno();
-		alumno1.setNombre("Diego");
-		alumno1.setEdad(19);
-		Alumno alumno2 = new Alumno();
-		alumno2.setNombre("Lorena");
-		alumno2.setEdad(20);
-		Alumno alumno3 = new Alumno();
-		alumno3.setNombre("Paula");
-		alumno3.setEdad(24);
-		Alumno alumno4 = new Alumno();
-		alumno4.setNombre("Pablo");
-		alumno4.setEdad(25);
-		Alumno alumno5 = new Alumno();
-		alumno5.setNombre("Laura");
-		alumno5.setEdad(30);
+		Alumno alumno1 = new Alumno("Diego",19);
+		Alumno alumno2 = new Alumno("Lorena",20);
+		Alumno alumno3 = new Alumno("Paula",24);
+		Alumno alumno4 = new Alumno("Pablo",25);
+		Alumno alumno5 = new Alumno("Laura",30);
 		
 		aula.addAlumnos(alumno1);
 		aula.addAlumnos(alumno2);

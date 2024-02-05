@@ -5,18 +5,17 @@ import java.util.Arrays;
 public class Aula {
 	
 	private Alumno alumnos[];
-	private int capacidad;
 	private int contadorAlumnos;
 	
-	Aula(int capacidad){
-		this.capacidad = capacidad;
+	public Aula(int capacidad){
+		
 		alumnos = new Alumno[capacidad];
 		this.contadorAlumnos = 0;
 	}
 
 	public void addAlumnos(Alumno alumno) {
 			
-		if(contadorAlumnos<capacidad) {
+		if(contadorAlumnos<alumnos.length) {
 			alumnos[contadorAlumnos]= alumno;
 			contadorAlumnos++;
 			
